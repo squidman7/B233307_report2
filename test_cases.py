@@ -27,3 +27,6 @@ class TestCalc (unittest.TestCase):
 
         def test_sample7 (self):
                 self.assertEqual (1098.9, calc(1.1,999))
+
+        def test_sample8 (self):
+                self.assertEqual (21, calc(7,3))
